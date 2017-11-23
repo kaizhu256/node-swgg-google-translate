@@ -11,8 +11,7 @@
     "homepage": "https://github.com/kaizhu256/node-swgg-google-translate",
     "keywords": [
         "google-translate",
-        "openapi",
-        "swagger"
+        "swagger-client"
     ],
     "license": "MIT",
     "main": "lib.swgg_google_translate.js",
@@ -38,5 +37,5 @@
         "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
     },
     "swggTags0": "google-translate",
-    "version": "2017.11.9"
+    "version": "2017.11.22"
 }

@@ -2,7 +2,7 @@
 this zero-dependency package will provide a swagger-client for google-translate's web-apis, with a working web-demo
 
 # live web demo
-- [https://kaizhu256.github.io/node-swgg-google-translate/build..beta..travis-ci.org/app/](https://kaizhu256.github.io/node-swgg-google-translate/build..beta..travis-ci.org/app)
+- [https://kaizhu256.github.io/node-swgg-google-translate/build..beta..travis-ci.org/app](https://kaizhu256.github.io/node-swgg-google-translate/build..beta..travis-ci.org/app)
 
 [![screenshot](https://kaizhu256.github.io/node-swgg-google-translate/build/screenshot.deployGithub.browser.%252Fnode-swgg-google-translate%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-swgg-google-translate/build..beta..travis-ci.org/app)
 
@@ -58,10 +58,9 @@ this zero-dependency package will provide a swagger-client for google-translate'
 #### todo
 - none
 
-#### changelog for v2017.11.9
-- npm publish 2017.11.9
-- remove unused browser-code when building README.md
-- update docs
+#### changelog for v2017.11.22
+- npm publish 2017.11.22
+- update swgg-client
 - none
 
 #### this package requires
@@ -324,8 +323,7 @@ instruction
     "homepage": "https://github.com/kaizhu256/node-swgg-google-translate",
     "keywords": [
         "google-translate",
-        "openapi",
-        "swagger"
+        "swagger-client"
     ],
     "license": "MIT",
     "main": "lib.swgg_google_translate.js",
@@ -351,7 +349,7 @@ instruction
         "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
     },
     "swggTags0": "google-translate",
-    "version": "2017.11.9"
+    "version": "2017.11.22"
 }
 ```
 
