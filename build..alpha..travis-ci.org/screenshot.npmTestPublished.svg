@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-02-16T23:42:54.855Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-02-16T23:53:30.932Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
 <tspan x="10" y="58">e_modules/swgg-google-translate</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 42619</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 38996</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-google-translate/package.json</tspan>
 
@@ -56,84 +56,84 @@
 
 <tspan x="10" y="490">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="506"></tspan>
+<tspan x="10" y="506">&gt; server listening on http-port 35559</tspan>
 
-<tspan x="10" y="522">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/swgg-google-transla\</tspan>
-<tspan x="10" y="538">te/tmp/electron.161a0ffd7150.e00e2b4cb1fac.html</tspan>
+<tspan x="10" y="522"></tspan>
 
-<tspan x="10" y="554"></tspan>
+<tspan x="10" y="538">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/swgg-google-transla\</tspan>
+<tspan x="10" y="554">te/tmp/electron.161a1098c220.ecd3c79454c7c.html</tspan>
 
-<tspan x="10" y="570">&gt; server listening on http-port 65062</tspan>
+<tspan x="10" y="570"></tspan>
 
 <tspan x="10" y="586">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="602">[5244:0216/234257.025612:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="602">[5088:0216/235333.190554:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="618">ted</tspan>
 
-<tspan x="10" y="634">[5244:0216/234257.025691:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="634">[5088:0216/235333.190634:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="650">ted</tspan>
 
-<tspan x="10" y="666">[5275:0216/234257.076823:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="666">[5119:0216/235333.204622:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
 <tspan x="10" y="682">hreads in process gpu-process. </tspan>
 
-<tspan x="10" y="698">[5244:0216/234257.156007:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="698">[5088:0216/235333.307777:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="714">l.</tspan>
 
-<tspan x="10" y="730">[5244:0216/234257.156979:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="730">[5088:0216/235333.308541:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="746">l.</tspan>
 
-<tspan x="10" y="762">[5244:0216/234257.157949:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="762">[5088:0216/235333.309225:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="778">l.</tspan>
 
-<tspan x="10" y="794">[5244:0216/234257.158823:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="794">[5088:0216/235333.309992:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="810">l.</tspan>
 
-<tspan x="10" y="826">[5244:0216/234257.160390:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="826">[5088:0216/235333.310905:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="842">l.</tspan>
 
 <tspan x="10" y="858"></tspan>
 
-<tspan x="10" y="874">browserTest - opened http://127.0.0.1:42619/index.default.html?modeTest=1</tspan>
+<tspan x="10" y="874">browserTest - opened http://127.0.0.1:38996/index.default.html?modeTest=1</tspan>
 
 <tspan x="10" y="890"></tspan>
 
-<tspan x="10" y="906">[5244:0216/234257.767133:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.sw\</tspan>
+<tspan x="10" y="906">[5088:0216/235333.930763:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.sw\</tspan>
 <tspan x="10" y="922">gg.html' of undefined", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/\</tspan>
-<tspan x="10" y="938">tmp/electron.161a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="938">tmp/electron.161a1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="954">[5244:0216/234257.791064:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildAp\</tspan>
+<tspan x="10" y="954">[5088:0216/235333.959753:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildAp\</tspan>
 <tspan x="10" y="970">idoc_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/elect\</tspan>
-<tspan x="10" y="986">ron.161a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="986">ron.161a1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1002">[5244:0216/234257.793908:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildAp\</tspan>
+<tspan x="10" y="1002">[5088:0216/235333.960669:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildAp\</tspan>
 <tspan x="10" y="1018">p_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron\</tspan>
-<tspan x="10" y="1034">.161a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1034">.161a1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1050">[5244:0216/234257.796584:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildCu\</tspan>
+<tspan x="10" y="1050">[5088:0216/235333.960777:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildCu\</tspan>
 <tspan x="10" y="1066">stomOrg_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/el\</tspan>
-<tspan x="10" y="1082">ectron.161a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1082">ectron.161a1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1098">[5244:0216/234257.802851:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildLi\</tspan>
+<tspan x="10" y="1098">[5088:0216/235333.961865:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildLi\</tspan>
 <tspan x="10" y="1114">b_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron\</tspan>
-<tspan x="10" y="1130">.161a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1130">.161a1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1146">[5244:0216/234257.805368:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildRe\</tspan>
+<tspan x="10" y="1146">[5088:0216/235333.962962:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildRe\</tspan>
 <tspan x="10" y="1162">adme_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/elect\</tspan>
-<tspan x="10" y="1178">ron.161a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1178">ron.161a1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1194">[5244:0216/234257.805390:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildTe\</tspan>
+<tspan x="10" y="1194">[5088:0216/235333.964068:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildTe\</tspan>
 <tspan x="10" y="1210">st_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electro\</tspan>
-<tspan x="10" y="1226">n.161a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1226">n.161a1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1242">[5244:0216/234257.805848:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_def\</tspan>
+<tspan x="10" y="1242">[5088:0216/235333.965139:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_def\</tspan>
 <tspan x="10" y="1258">ault", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161a\</tspan>
-<tspan x="10" y="1274">0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1274">1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1290">[5244:0216/234257.811727:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpage\</tspan>
+<tspan x="10" y="1290">[5088:0216/235333.966498:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpage\</tspan>
 <tspan x="10" y="1306">_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.\</tspan>
-<tspan x="10" y="1322">161a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1322">161a1098c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1338">[5244:0216/234258.808548:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|-----\</tspan>
+<tspan x="10" y="1338">[5088:0216/235334.972678:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|-----\</tspan>
 <tspan x="10" y="1354">------|</tspan>
 
 <tspan x="10" y="1370">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
@@ -146,12 +146,12 @@
 
 <tspan x="10" y="1434">----------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1450">", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161a0ffd\</tspan>
-<tspan x="10" y="1466">7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1450">", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161a1098\</tspan>
+<tspan x="10" y="1466">c220.ecd3c79454c7c.html (71)</tspan>
 
-<tspan x="10" y="1482">[5244:0216/234258.812824:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/index\</tspan>
+<tspan x="10" y="1482">[5088:0216/235334.977426:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/index\</tspan>
 <tspan x="10" y="1498">.html", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161\</tspan>
-<tspan x="10" y="1514">a0ffd7150.e00e2b4cb1fac.html (71)</tspan>
+<tspan x="10" y="1514">a1098c220.ecd3c79454c7c.html (71)</tspan>
 
 <tspan x="10" y="1530">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
@@ -212,15 +212,15 @@
 
 <tspan x="10" y="2026">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
 <tspan x="10" y="2042">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 20\</tspan>
-<tspan x="10" y="2058">18-02-16T23:42:57.733Z</tspan>
+<tspan x="10" y="2058">18-02-16T23:53:33.895Z</tspan>
 
-<tspan x="10" y="2074">|      17 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2074">|      15 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2090">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2106">| test-report - npmTestPublished - node - linux v6.13.0 - 2018-02-16T23:42:55.163Z</tspan>
+<tspan x="10" y="2106">| test-report - npmTestPublished - node - linux v6.13.0 - 2018-02-16T23:53:31.253Z</tspan>
 
-<tspan x="10" y="2122">|   16933 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="2122">|   16976 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="2138">-------------------------------------------------------</tspan>
 
@@ -239,7 +239,7 @@
 
 <tspan x="10" y="2266"></tspan>
 
-<tspan x="10" y="2282">[MODE_BUILD=npmTestPublished] - 2018-02-16T23:43:14.029Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2282">[MODE_BUILD=npmTestPublished] - 2018-02-16T23:53:50.183Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

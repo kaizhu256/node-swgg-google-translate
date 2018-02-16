@@ -20453,6 +20453,9 @@ instruction\n\
         };
 
         local.serverLog = function (options) {
+        /*
+         * this function will log server operations
+         */
             console.error('serverLog - ' + JSON.stringify(options));
         };
 
