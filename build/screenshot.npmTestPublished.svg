@@ -1,9 +1,9 @@
-<svg height="2142" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="2142" fill="#555" width="720"></rect>
+<svg height="2302" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2302" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-02-17T00:03:16.322Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTestPublished] - 2018-02-17T00:44:54.480Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
 <tspan x="10" y="58">e_modules/swgg-google-translate</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 46808</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 43488</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /tmp/npmTestPublished/node_modules/swgg-google-translate/package.json</tspan>
 
@@ -56,175 +56,190 @@
 
 <tspan x="10" y="490">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="506">&gt; server listening on http-port 55162</tspan>
+<tspan x="10" y="506"></tspan>
 
-<tspan x="10" y="522"></tspan>
+<tspan x="10" y="522">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/swgg-google-transla\</tspan>
+<tspan x="10" y="538">te/tmp/electron.161a13899200.ce57298a3538f.html</tspan>
 
-<tspan x="10" y="538">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/swgg-google-transla\</tspan>
-<tspan x="10" y="554">te/tmp/electron.161a1127a290.68afd2a4b9f48.html</tspan>
+<tspan x="10" y="554"></tspan>
 
-<tspan x="10" y="570"></tspan>
+<tspan x="10" y="570">&gt; server listening on http-port 63852</tspan>
 
 <tspan x="10" y="586">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 
-<tspan x="10" y="602">[5143:0217/000318.408357:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="602">[5039:0217/004456.725973:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="618">ted</tspan>
 
-<tspan x="10" y="634">[5143:0217/000318.408430:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="634">[5039:0217/004456.726036:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="650">ted</tspan>
 
-<tspan x="10" y="666">[5175:0217/000318.416279:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="666">[5069:0217/004456.749445:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
 <tspan x="10" y="682">hreads in process gpu-process. </tspan>
 
-<tspan x="10" y="698"></tspan>
+<tspan x="10" y="698">[5039:0217/004456.839583:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="714">l.</tspan>
 
-<tspan x="10" y="714">browserTest - opened http://127.0.0.1:46808/index.default.html?modeTest=1</tspan>
+<tspan x="10" y="730">[5039:0217/004456.847157:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="746">l.</tspan>
 
-<tspan x="10" y="730"></tspan>
+<tspan x="10" y="762">[5039:0217/004456.850990:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="778">l.</tspan>
 
-<tspan x="10" y="746">[5143:0217/000319.194887:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.sw\</tspan>
-<tspan x="10" y="762">gg.html' of undefined", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/\</tspan>
-<tspan x="10" y="778">tmp/electron.161a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="794">[5039:0217/004456.851557:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="810">l.</tspan>
 
-<tspan x="10" y="794">[5143:0217/000319.217854:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildAp\</tspan>
-<tspan x="10" y="810">idoc_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/elect\</tspan>
-<tspan x="10" y="826">ron.161a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="826">[5039:0217/004456.852373:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="842">l.</tspan>
 
-<tspan x="10" y="842">[5143:0217/000319.220250:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildAp\</tspan>
-<tspan x="10" y="858">p_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron\</tspan>
-<tspan x="10" y="874">.161a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="858"></tspan>
 
-<tspan x="10" y="890">[5143:0217/000319.222090:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildCu\</tspan>
-<tspan x="10" y="906">stomOrg_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/el\</tspan>
-<tspan x="10" y="922">ectron.161a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="874">browserTest - opened http://127.0.0.1:43488/index.default.html?modeTest=1</tspan>
 
-<tspan x="10" y="938">[5143:0217/000319.222114:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildLi\</tspan>
-<tspan x="10" y="954">b_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron\</tspan>
-<tspan x="10" y="970">.161a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="890"></tspan>
 
-<tspan x="10" y="986">[5143:0217/000319.223276:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildRe\</tspan>
-<tspan x="10" y="1002">adme_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/elect\</tspan>
-<tspan x="10" y="1018">ron.161a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="906">[5039:0217/004457.470819:INFO:CONSOLE(71)] "Uncaught TypeError: Cannot read property '/assets.sw\</tspan>
+<tspan x="10" y="922">gg.html' of undefined", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/\</tspan>
+<tspan x="10" y="938">tmp/electron.161a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1034">[5143:0217/000319.223313:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildTe\</tspan>
-<tspan x="10" y="1050">st_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electro\</tspan>
-<tspan x="10" y="1066">n.161a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="954">[5039:0217/004457.500252:INFO:CONSOLE(71)] "[browser test-case 1 of 8 passed] - testCase_buildAp\</tspan>
+<tspan x="10" y="970">idoc_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/elect\</tspan>
+<tspan x="10" y="986">ron.161a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1082">[5143:0217/000319.224642:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_def\</tspan>
-<tspan x="10" y="1098">ault", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161a\</tspan>
-<tspan x="10" y="1114">1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="1002">[5039:0217/004457.500939:INFO:CONSOLE(71)] "[browser test-case 2 of 8 passed] - testCase_buildAp\</tspan>
+<tspan x="10" y="1018">p_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron\</tspan>
+<tspan x="10" y="1034">.161a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1130">[5143:0217/000319.224664:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpage\</tspan>
-<tspan x="10" y="1146">_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.\</tspan>
-<tspan x="10" y="1162">161a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="1050">[5039:0217/004457.501480:INFO:CONSOLE(71)] "[browser test-case 3 of 8 passed] - testCase_buildCu\</tspan>
+<tspan x="10" y="1066">stomOrg_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/el\</tspan>
+<tspan x="10" y="1082">ectron.161a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1178">[5143:0217/000320.234153:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|-----\</tspan>
-<tspan x="10" y="1194">------|</tspan>
+<tspan x="10" y="1098">[5039:0217/004457.502024:INFO:CONSOLE(71)] "[browser test-case 4 of 8 passed] - testCase_buildLi\</tspan>
+<tspan x="10" y="1114">b_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron\</tspan>
+<tspan x="10" y="1130">.161a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1210">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="1146">[5039:0217/004457.502893:INFO:CONSOLE(71)] "[browser test-case 5 of 8 passed] - testCase_buildRe\</tspan>
+<tspan x="10" y="1162">adme_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/elect\</tspan>
+<tspan x="10" y="1178">ron.161a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1226">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1194">[5039:0217/004457.502927:INFO:CONSOLE(71)] "[browser test-case 6 of 8 passed] - testCase_buildTe\</tspan>
+<tspan x="10" y="1210">st_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electro\</tspan>
+<tspan x="10" y="1226">n.161a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1242">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1242">[5039:0217/004457.503626:INFO:CONSOLE(71)] "[browser test-case 7 of 8 passed] - testCase_nop_def\</tspan>
+<tspan x="10" y="1258">ault", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161a\</tspan>
+<tspan x="10" y="1274">13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1258">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1290">[5039:0217/004457.503650:INFO:CONSOLE(71)] "[browser test-case 8 of 8 passed] - testCase_webpage\</tspan>
+<tspan x="10" y="1306">_default", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.\</tspan>
+<tspan x="10" y="1322">161a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1274">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1338">[5039:0217/004458.510262:INFO:CONSOLE(71)] "----------|-----------|-----------|-----------|-----\</tspan>
+<tspan x="10" y="1354">------|</tspan>
 
-<tspan x="10" y="1290">", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161a1127\</tspan>
-<tspan x="10" y="1306">a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="1370">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 
-<tspan x="10" y="1322">[5143:0217/000320.240826:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/index\</tspan>
-<tspan x="10" y="1338">.html", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161\</tspan>
-<tspan x="10" y="1354">a1127a290.68afd2a4b9f48.html (71)</tspan>
+<tspan x="10" y="1386">----------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1370">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="1402">----------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1386"></tspan>
+<tspan x="10" y="1418">All files |       100 |       100 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1402">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-google-translate/tm\</tspan>
-<tspan x="10" y="1418">p/build/screenshot.npmTestPublished.browser.%2F.png</tspan>
+<tspan x="10" y="1434">----------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1434"></tspan>
+<tspan x="10" y="1450">", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161a1389\</tspan>
+<tspan x="10" y="1466">9200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1450">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-google-translate/tm\</tspan>
-<tspan x="10" y="1466">p/build/screenshot.npmTestPublished.browser.%2F.html</tspan>
+<tspan x="10" y="1482">[5039:0217/004458.518505:INFO:CONSOLE(71)] "created coverage file /tmp/build/coverage.html/index\</tspan>
+<tspan x="10" y="1498">.html", source: file:///tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/electron.161\</tspan>
+<tspan x="10" y="1514">a13899200.ce57298a3538f.html (71)</tspan>
 
-<tspan x="10" y="1482"></tspan>
-
-<tspan x="10" y="1498">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/swgg-google-translate\</tspan>
-<tspan x="10" y="1514">/tmp/coverage.npmTestPublished.browser.%2Findex.default.html.json</tspan>
-
-<tspan x="10" y="1530"></tspan>
+<tspan x="10" y="1530">[node test-case 7 of 8 passed] - testCase_buildApp_default</tspan>
 
 <tspan x="10" y="1546"></tspan>
 
-<tspan x="10" y="1562">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/swgg-google-transl\</tspan>
-<tspan x="10" y="1578">ate/tmp/test-report.npmTestPublished.browser.%2Findex.default.html.json</tspan>
+<tspan x="10" y="1562">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-google-translate/tm\</tspan>
+<tspan x="10" y="1578">p/build/screenshot.npmTestPublished.browser.%2F.png</tspan>
 
 <tspan x="10" y="1594"></tspan>
 
-<tspan x="10" y="1610">[node test-case 8 of 8 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="1610">browserTest - created screenshot file /home/travis/build/kaizhu256/node-swgg-google-translate/tm\</tspan>
+<tspan x="10" y="1626">p/build/screenshot.npmTestPublished.browser.%2F.html</tspan>
 
-<tspan x="10" y="1626">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1642"></tspan>
 
-<tspan x="10" y="1642">File                               |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="1658">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/swgg-google-translate\</tspan>
+<tspan x="10" y="1674">/tmp/coverage.npmTestPublished.browser.%2Findex.default.html.json</tspan>
 
-<tspan x="10" y="1658">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1690"></tspan>
 
-<tspan x="10" y="1674">   swgg-google-translate/          |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1706"></tspan>
 
-<tspan x="10" y="1690">      example.js                   |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1722">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/swgg-google-transl\</tspan>
+<tspan x="10" y="1738">ate/tmp/test-report.npmTestPublished.browser.%2Findex.default.html.json</tspan>
 
-<tspan x="10" y="1706">      lib.swgg_google_translate.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1754"></tspan>
 
-<tspan x="10" y="1722">      test.js                      |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1770">[node test-case 8 of 8 passed] - testCase_webpage_default</tspan>
 
-<tspan x="10" y="1738">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1786">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1754">All files                          |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="1802">File                               |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 
-<tspan x="10" y="1770">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="1818">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1786"></tspan>
+<tspan x="10" y="1834">   swgg-google-translate/          |       100 |       100 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1802">created coverage file /tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/build/coverag\</tspan>
-<tspan x="10" y="1818">e.html/index.html</tspan>
+<tspan x="10" y="1850">      example.js                   |       100 |       100 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1834"></tspan>
+<tspan x="10" y="1866">      lib.swgg_google_translate.js |       100 |       100 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1850">-------------------------------------------------------</tspan>
+<tspan x="10" y="1882">      test.js                      |       100 |       100 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1866">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
-<tspan x="10" y="1882">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 20\</tspan>
-<tspan x="10" y="1898">18-02-17T00:03:19.159Z</tspan>
+<tspan x="10" y="1898">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1914">|      14 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="1914">All files                          |       100 |       100 |       100 |       100 |</tspan>
 
-<tspan x="10" y="1930">-------------------------------------------------------</tspan>
+<tspan x="10" y="1930">-----------------------------------|-----------|-----------|-----------|-----------|</tspan>
 
-<tspan x="10" y="1946">| test-report - npmTestPublished - node - linux v6.13.0 - 2018-02-17T00:03:16.635Z</tspan>
+<tspan x="10" y="1946"></tspan>
 
-<tspan x="10" y="1962">|   16906 ms            0 failed        8 passed      |</tspan>
-
-<tspan x="10" y="1978">-------------------------------------------------------</tspan>
+<tspan x="10" y="1962">created coverage file /tmp/npmTestPublished/node_modules/swgg-google-translate/tmp/build/coverag\</tspan>
+<tspan x="10" y="1978">e.html/index.html</tspan>
 
 <tspan x="10" y="1994"></tspan>
 
-<tspan x="10" y="2010">created test-report file /home/travis/build/kaizhu256/node-swgg-google-translate/tmp/build/test-\</tspan>
-<tspan x="10" y="2026">report.html</tspan>
+<tspan x="10" y="2010">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2042"></tspan>
+<tspan x="10" y="2026">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
+<tspan x="10" y="2042">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 20\</tspan>
+<tspan x="10" y="2058">18-02-17T00:44:57.436Z</tspan>
 
-<tspan x="10" y="2058"></tspan>
+<tspan x="10" y="2074">|      10 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="2074">npmTestPublished - 0 failed tests</tspan>
+<tspan x="10" y="2090">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="2090"></tspan>
+<tspan x="10" y="2106">| test-report - npmTestPublished - node - linux v6.13.0 - 2018-02-17T00:44:54.788Z</tspan>
 
-<tspan x="10" y="2106"></tspan>
+<tspan x="10" y="2122">|   16974 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="2122">[MODE_BUILD=npmTestPublished] - 2018-02-17T00:03:35.403Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2138">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="2154"></tspan>
+
+<tspan x="10" y="2170">created test-report file /home/travis/build/kaizhu256/node-swgg-google-translate/tmp/build/test-\</tspan>
+<tspan x="10" y="2186">report.html</tspan>
+
+<tspan x="10" y="2202"></tspan>
+
+<tspan x="10" y="2218"></tspan>
+
+<tspan x="10" y="2234">npmTestPublished - 0 failed tests</tspan>
+
+<tspan x="10" y="2250"></tspan>
+
+<tspan x="10" y="2266"></tspan>
+
+<tspan x="10" y="2282">[MODE_BUILD=npmTestPublished] - 2018-02-17T00:45:13.692Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

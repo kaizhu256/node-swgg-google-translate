@@ -14940,6 +14940,11 @@ body > button {\n\
 button {\n\
     cursor: pointer;\n\
 }\n\
+code,\n\
+pre,\n\
+textarea {\n\
+    font-family: Menlo, Consolas, Courier New, monospace;\n\
+}\n\
 pre {\n\
     overflow-wrap: break-word;\n\
     white-space: pre-wrap;\n\
@@ -14982,7 +14987,6 @@ pre {\n\
 /*csslint\n\
 */\n\
 textarea {\n\
-    font-family: monospace;\n\
     height: 10rem;\n\
     width: 100%;\n\
 }\n\
@@ -23564,7 +23568,6 @@ local.assetsDict['/assets.swgg.html'] = local.assetsDict['/assets.index.default.
 }\n\
 .swggUiContainer pre,\n\
 .swggUiContainer textarea {\n\
-    font-family: Menlo, Monaco, Consolas, Courier New, monospace;\n\
     font-size: small;\n\
     line-height: 1.25rem;\n\
     max-height: 50rem;\n\
