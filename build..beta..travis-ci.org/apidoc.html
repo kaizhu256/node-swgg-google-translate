@@ -1,0 +1,246 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/kaizhu256/node-swgg-google-translate"
+
+    >swgg-google-translate (v2017.11.22)</a>
+</h1>
+<h4>this zero-dependency package will provide a swagger-client for google-translate's web-apis, with a working web-demo</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.swgg-google-translate">module swgg-google-translate</a><ol>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.swgg.apiDict">module swgg.apiDict</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2F_24discovery_2Frest_23google-translate_20GET.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2F_24discovery_2Frest_23google-translate_20GET.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flanguage_2Ftranslate_2Fv2_20POST.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST.ajax">
+            function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST.ajax
+            <span class="apidocSignatureSpan">(options, onError)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.swgg-google-translate" id="apidoc.module.swgg-google-translate">module swgg-google-translate</a></h1>
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.swgg.apiDict" id="apidoc.module.swgg.apiDict">module swgg.apiDict</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2F_24discovery_2Frest_23google-translate_20GET.ajax" id="apidoc.element.swgg.apiDict.operationId._2F_24discovery_2Frest_23google-translate_20GET.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2F_24discovery_2Frest_23google-translate_20GET.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2F_24discovery_2Frest_23google-translate_20GET.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;GET /$discovery/rest#google-translate&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2F_24discovery_2Frest_23google-translate_20GET&#x22;].ajax({
+        &#x22;version&#x22;: &#x22;v2&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flanguage_2Ftranslate_2Fv2_20POST.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flanguage_2Ftranslate_2Fv2_20POST.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;POST /language/translate/v2&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flanguage_2Ftranslate_2Fv2_20POST&#x22;].ajax({
+        &#x22;key&#x22;: &#x22;xxxxxxxx&#x22;,
+        &#x22;q&#x22;: &#x22;hello world!&#x22;,
+        &#x22;target&#x22;: &#x22;en&#x22;,
+        &#x22;format&#x22;: &#x22;html&#x22;,
+        &#x22;source&#x22;: &#x22;af&#x22;,
+        &#x22;model&#x22;: &#x22;nmt&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;POST /language/translate/v2/detect&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST&#x22;].ajax({
+        &#x22;key&#x22;: &#x22;xxxxxxxx&#x22;,
+        &#x22;q&#x22;: [
+            &#x22;hello world!&#x22;,
+            &#x22;你好，世界！&#x22;
+        ]
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST.ajax" id="apidoc.element.swgg.apiDict.operationId._2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST.ajax">
+        function <span class="apidocSignatureSpan">swgg.apiDict.</span>operationId._2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST.ajax
+        <span class="apidocSignatureSpan">(options, onError)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">operationId._2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST.ajax = function (options, onError) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will make the api-call &#x22;POST /language/translate/v2/languages&#x22;
+ * example usage:
+    swgg.apiDict[&#x22;operationId._2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST&#x22;].ajax({
+        &#x22;key&#x22;: &#x22;xxxxxxxx&#x22;,
+        &#x22;target&#x22;: &#x22;af&#x22;,
+        &#x22;model&#x22;: &#x22;nmt&#x22;
+    }, function (error, data) {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(data.responseJson || data.responseText);
+    });
+ */
+</span>    return local.apiAjax(self, options, onError);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>

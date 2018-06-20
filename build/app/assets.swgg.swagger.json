@@ -1,0 +1,336 @@
+{
+    "basePath": "/",
+    "definitions": {},
+    "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
+    "externalDocs": {
+        "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
+        "url": "https://cloud.google.com/translate/docs/reference/rest"
+    },
+    "info": {
+        "description": "this zero-dependency package will provide a swagger-client for google-all's web-apis, with a working web-demo",
+        "title": "swgg-google-translate",
+        "version": "2018.6.20",
+        "x-swgg-description": "this zero-dependency package will provide a swagger-client for google-translate's web-apis, with a working web-demo",
+        "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-google-all/build..beta..travis-ci.org/app/assets.app.js",
+        "x-swgg-homepage": "https://github.com/kaizhu256/node-swgg-google-translate"
+    },
+    "parameters": {
+        "google-all.key": {
+            "default": "xxxxxxxx",
+            "description": "A valid API key to handle requests for this API. If you are using OAuth 2.0 service account credentials (recommended), do not supply this parameter.",
+            "in": "query",
+            "name": "key",
+            "type": "string",
+            "x-swgg-apiKey": true
+        },
+        "google-translate.language": {
+            "description": "https://cloud.google.com/translate/docs/languages",
+            "enum": [
+                "af",
+                "sq",
+                "am",
+                "ar",
+                "hy",
+                "az",
+                "eu",
+                "be",
+                "bn",
+                "bs",
+                "bg",
+                "ca",
+                "ceb",
+                "zh-CN",
+                "zh-TW",
+                "co",
+                "hr",
+                "cs",
+                "da",
+                "nl",
+                "en",
+                "eo",
+                "et",
+                "fi",
+                "fr",
+                "fy",
+                "gl",
+                "ka",
+                "de",
+                "el",
+                "gu",
+                "ht",
+                "ha",
+                "haw",
+                "iw",
+                "hi",
+                "hmn",
+                "hu",
+                "is",
+                "ig",
+                "id",
+                "ga",
+                "it",
+                "ja",
+                "jw",
+                "kn",
+                "kk",
+                "km",
+                "ko",
+                "ku",
+                "ky",
+                "lo",
+                "la",
+                "lv",
+                "lt",
+                "lb",
+                "mk",
+                "mg",
+                "ms",
+                "ml",
+                "mt",
+                "mi",
+                "mr",
+                "mn",
+                "my",
+                "ne",
+                "no",
+                "ny",
+                "ps",
+                "fa",
+                "pl",
+                "pt",
+                "pa",
+                "ro",
+                "ru",
+                "sm",
+                "gd",
+                "sr",
+                "st",
+                "sn",
+                "sd",
+                "si",
+                "sk",
+                "sl",
+                "so",
+                "es",
+                "su",
+                "sw",
+                "sv",
+                "tl",
+                "tg",
+                "ta",
+                "te",
+                "th",
+                "tr",
+                "uk",
+                "ur",
+                "uz",
+                "vi",
+                "cy",
+                "xh",
+                "yi",
+                "yo",
+                "zu"
+            ],
+            "in": "query",
+            "name": "language",
+            "type": "string",
+            "x-swgg-tags0": "google-translate"
+        }
+    },
+    "paths": {
+        "/$discovery/rest#google-translate": {
+            "get": {
+                "description": "discovery document.",
+                "operationId": "_2F_24discovery_2Frest_23google-translate_20GET",
+                "parameters": [
+                    {
+                        "default": "v2",
+                        "description": "version",
+                        "in": "query",
+                        "name": "version",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "google-translate"
+                ],
+                "x-swgg-host": "translation.googleapis.com",
+                "x-swgg-tags0": "google-translate"
+            }
+        },
+        "/language/translate/v2": {
+            "post": {
+                "description": "Method: translate.\nTranslates input text, returning translated text.\n\nhttps://cloud.google.com/translate/docs/reference/translate",
+                "operationId": "_2Flanguage_2Ftranslate_2Fv2_20POST",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/google-all.key"
+                    },
+                    {
+                        "default": "hello world!",
+                        "description": "The input text to translate. Repeat this parameter to perform translation operations on multiple text inputs.",
+                        "in": "query",
+                        "name": "q",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "default": "en",
+                        "description": "The language to use for translation of the input text, set to one of the language codes listed in Language Support (https://cloud.google.com/translate/docs/languages).",
+                        "in": "query",
+                        "name": "target",
+                        "required": true,
+                        "type": "string",
+                        "x-swgg-$ref": "#/parameters/google-translate.language"
+                    },
+                    {
+                        "description": "The format of the source text, in either HTML (default) or plain-text. A value of html indicates HTML and a value of text indicates plain-text.",
+                        "enum": [
+                            "html",
+                            "text"
+                        ],
+                        "in": "query",
+                        "name": "format",
+                        "type": "string"
+                    },
+                    {
+                        "description": "The language of the source text, set to one of the language codes listed in Language Support (https://cloud.google.com/translate/docs/languages). If the source language is not specified, the API will attempt to detect the source language automatically and return it within the response.",
+                        "in": "query",
+                        "name": "source",
+                        "type": "string",
+                        "x-swgg-$ref": "#/parameters/google-translate.language"
+                    },
+                    {
+                        "description": "The translation model. Can be either base to use the Phrase-Based Machine Translation (PBMT) model, or nmt to use the Neural Machine Translation (NMT) model. If omitted, then nmt is used.\n\nIf the model is nmt, and the requested language translation pair is not supported for the NMT model, then the request is translated using the base model.",
+                        "enum": [
+                            "nmt",
+                            "base"
+                        ],
+                        "in": "query",
+                        "name": "model",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "google-translate"
+                ],
+                "x-swgg-host": "translation.googleapis.com",
+                "x-swgg-tags0": "google-translate"
+            }
+        },
+        "/language/translate/v2/detect": {
+            "post": {
+                "description": "Method: detect.\nDetects the language of text within a request.\n\nhttps://cloud.google.com/translate/docs/reference/detect",
+                "operationId": "_2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/google-all.key"
+                    },
+                    {
+                        "collectionFormat": "multi",
+                        "default": [
+                            "hello world!",
+                            "你好，世界！"
+                        ],
+                        "description": "The input text upon which to perform language detection. Repeat this parameter to perform language detection on multiple text inputs.",
+                        "in": "query",
+                        "items": {
+                            "type": "string"
+                        },
+                        "name": "q",
+                        "required": true,
+                        "type": "array"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "google-translate"
+                ],
+                "x-swgg-host": "translation.googleapis.com",
+                "x-swgg-tags0": "google-translate"
+            }
+        },
+        "/language/translate/v2/languages": {
+            "post": {
+                "description": "Method: languages.\nReturns a list of supported languages for translation.\n\nhttps://cloud.google.com/translate/docs/reference/languages",
+                "operationId": "_2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST",
+                "parameters": [
+                    {
+                        "$ref": "#/parameters/google-all.key"
+                    },
+                    {
+                        "description": "The target language code for the results. If specified, then the language names are returned in the name field of the response, localized in the target language. If you do not supply a target language, then the name field is omitted from the response and only the language codes are returned.",
+                        "in": "query",
+                        "name": "target",
+                        "type": "string",
+                        "x-swgg-$ref": "#/parameters/google-translate.language"
+                    },
+                    {
+                        "description": "The translation model of the supported languages. Can be either base to return languages supported by the Phrase-Based Machine Translation (PBMT) model, or nmt to return languages supported by the Neural Machine Translation (NMT) model. If omitted, then all supported languages are returned.\n\nLanguages supported by the NMT model can only be translated to or from English (en).",
+                        "enum": [
+                            "nmt",
+                            "base"
+                        ],
+                        "in": "query",
+                        "name": "model",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default response"
+                    }
+                },
+                "tags": [
+                    "google-translate"
+                ],
+                "x-swgg-host": "translation.googleapis.com",
+                "x-swgg-tags0": "google-translate"
+            }
+        }
+    },
+    "schemes": [
+        "https"
+    ],
+    "swagger": "2.0",
+    "tags": [
+        {
+            "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
+            "name": "google-translate",
+            "x-swgg-tags0": "google-translate"
+        }
+    ],
+    "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-google-translate/build..beta..travis-ci.org/app/assets.app.js",
+    "x-swgg-operationIdFromPath": true,
+    "x-swgg-tags0-override": {
+        "google-maps": {
+            "description": "Google Maps APIs.",
+            "externalDocs": {
+                "description": "Google Maps APIs.",
+                "url": "https://developers.google.com/maps/documentation/"
+            }
+        },
+        "google-translate": {
+            "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
+            "externalDocs": {
+                "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
+                "url": "https://cloud.google.com/translate/docs/reference/rest"
+            }
+        }
+    }
+}
