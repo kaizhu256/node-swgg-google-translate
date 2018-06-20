@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-20T21:25:43.034Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-20T21:45:07.088Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="58">-swgg-google-translate</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,9 +15,9 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-google-translate/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 37298</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 40880</tspan>
 
-<tspan x="10" y="170">&gt; server listening on http-port 46596</tspan>
+<tspan x="10" y="170">&gt; server listening on http-port 33448</tspan>
 
 <tspan x="10" y="186">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
@@ -30,15 +30,15 @@
 
 <tspan x="10" y="266">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="282">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-20T21:25:18.663Z</tspan>
+<tspan x="10" y="282">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-20T21:44:42.903Z</tspan>
 
-<tspan x="10" y="298">|   30226 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="298">|   30043 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="314">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="330">| test-report - npmTest - node - linux v10.5.0 - 2018-06-20T21:24:58.596Z</tspan>
+<tspan x="10" y="330">| test-report - npmTest - node - linux v10.5.0 - 2018-06-20T21:44:22.428Z</tspan>
 
-<tspan x="10" y="346">|   17266 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="346">|   17608 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="362">-------------------------------------------------------</tspan>
 
@@ -57,7 +57,7 @@
 
 <tspan x="10" y="490"></tspan>
 
-<tspan x="10" y="506">[MODE_BUILD=buildApp] - 2018-06-20T21:25:50.261Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="506">[MODE_BUILD=buildApp] - 2018-06-20T21:45:14.295Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
