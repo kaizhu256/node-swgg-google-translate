@@ -1,9 +1,9 @@
-<svg height="606" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="606" fill="#555" width="720"></rect>
+<svg height="526" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="526" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-20T07:58:52.937Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-20T21:25:43.034Z - npm-testing /home/travis/build/kaizhu256/node\</tspan>
 <tspan x="10" y="58">-swgg-google-translate</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,9 +15,9 @@
 
 <tspan x="10" y="138">override assets /home/travis/build/kaizhu256/node-swgg-google-translate/assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 38485</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 37298</tspan>
 
-<tspan x="10" y="170">&gt; server listening on http-port 45599</tspan>
+<tspan x="10" y="170">&gt; server listening on http-port 46596</tspan>
 
 <tspan x="10" y="186">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
 
@@ -30,42 +30,34 @@
 
 <tspan x="10" y="266">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="282">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-20T07:47:48.137Z</tspan>
+<tspan x="10" y="282">| test-report - buildApidoc - node - linux v10.5.0 - 2018-06-20T21:25:18.663Z</tspan>
 
-<tspan x="10" y="298">|  670574 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="298">|   30226 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="314">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="330">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
-<tspan x="10" y="346">ebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-20\</tspan>
-<tspan x="10" y="362">T07:47:30.425Z</tspan>
+<tspan x="10" y="330">| test-report - npmTest - node - linux v10.5.0 - 2018-06-20T21:24:58.596Z</tspan>
 
-<tspan x="10" y="378">|      17 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="346">|   17266 ms            0 failed        8 passed      |</tspan>
 
-<tspan x="10" y="394">-------------------------------------------------------</tspan>
+<tspan x="10" y="362">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="410">| test-report - npmTest - node - linux v6.14.3 - 2018-06-20T07:47:28.280Z</tspan>
+<tspan x="10" y="378"></tspan>
 
-<tspan x="10" y="426">|   16518 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="394">created test-report file /home/travis/build/kaizhu256/node-swgg-google-translate/tmp/build/test-\</tspan>
+<tspan x="10" y="410">report.html</tspan>
 
-<tspan x="10" y="442">-------------------------------------------------------</tspan>
+<tspan x="10" y="426"></tspan>
 
-<tspan x="10" y="458"></tspan>
+<tspan x="10" y="442"></tspan>
 
-<tspan x="10" y="474">created test-report file /home/travis/build/kaizhu256/node-swgg-google-translate/tmp/build/test-\</tspan>
-<tspan x="10" y="490">report.html</tspan>
+<tspan x="10" y="458">buildApp - 0 failed tests</tspan>
 
-<tspan x="10" y="506"></tspan>
+<tspan x="10" y="474"></tspan>
 
-<tspan x="10" y="522"></tspan>
+<tspan x="10" y="490"></tspan>
 
-<tspan x="10" y="538">buildApp - 0 failed tests</tspan>
-
-<tspan x="10" y="554"></tspan>
-
-<tspan x="10" y="570"></tspan>
-
-<tspan x="10" y="586">[MODE_BUILD=buildApp] - 2018-06-20T07:59:00.471Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="506">[MODE_BUILD=buildApp] - 2018-06-20T21:25:50.261Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
