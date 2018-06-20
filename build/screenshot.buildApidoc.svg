@@ -1,9 +1,9 @@
-<svg height="974" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="974" fill="#555" width="720"></rect>
+<svg height="846" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="846" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-02-17T00:46:24.998Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-06-20T07:47:47.891Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
 <tspan x="10" y="58">ode-swgg-google-translate</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -15,7 +15,7 @@
 
 <tspan x="10" y="138">override assets assets.swgg.swagger.json</tspan>
 
-<tspan x="10" y="154">&gt; server listening on http-port 54479</tspan>
+<tspan x="10" y="154">&gt; server listening on http-port 52305</tspan>
 
 <tspan x="10" y="170">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/package.json</tspan>
 
@@ -57,56 +57,42 @@
 
 <tspan x="10" y="506">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="522">| test-report - buildApidoc - node - linux v6.13.0 - 2018-02-17T00:46:25.274Z</tspan>
+<tspan x="10" y="522">| test-report - buildApidoc - node - linux v6.14.3 - 2018-06-20T07:47:48.137Z</tspan>
 
-<tspan x="10" y="538">|     141 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="538">|     100 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="554">-------------------------------------------------------</tspan>
 
 <tspan x="10" y="570">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
-<tspan x="10" y="586">ebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 2018-02-17T\</tspan>
-<tspan x="10" y="602">00:46:07.286Z</tspan>
+<tspan x="10" y="586">ebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-20\</tspan>
+<tspan x="10" y="602">T07:47:30.425Z</tspan>
 
-<tspan x="10" y="618">|      41 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="618">|      17 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="634">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="650">| test-report - npmTest - node - linux v6.13.0 - 2018-02-17T00:46:04.716Z</tspan>
+<tspan x="10" y="650">| test-report - npmTest - node - linux v6.14.3 - 2018-06-20T07:47:28.280Z</tspan>
 
-<tspan x="10" y="666">|   16853 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="666">|   16518 ms            0 failed        8 passed      |</tspan>
 
 <tspan x="10" y="682">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="698">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
-<tspan x="10" y="714">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 20\</tspan>
-<tspan x="10" y="730">18-02-17T00:44:57.436Z</tspan>
+<tspan x="10" y="698"></tspan>
 
-<tspan x="10" y="746">|      10 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="714">created test-report file /home/travis/build/kaizhu256/node-swgg-google-translate/tmp/build/test-\</tspan>
+<tspan x="10" y="730">report.html</tspan>
 
-<tspan x="10" y="762">-------------------------------------------------------</tspan>
+<tspan x="10" y="746"></tspan>
 
-<tspan x="10" y="778">| test-report - npmTestPublished - node - linux v6.13.0 - 2018-02-17T00:44:54.788Z</tspan>
+<tspan x="10" y="762"></tspan>
 
-<tspan x="10" y="794">|   16974 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="778">buildApidoc - 0 failed tests</tspan>
 
-<tspan x="10" y="810">-------------------------------------------------------</tspan>
+<tspan x="10" y="794"></tspan>
 
-<tspan x="10" y="826"></tspan>
+<tspan x="10" y="810"></tspan>
 
-<tspan x="10" y="842">created test-report file /home/travis/build/kaizhu256/node-swgg-google-translate/tmp/build/test-\</tspan>
-<tspan x="10" y="858">report.html</tspan>
-
-<tspan x="10" y="874"></tspan>
-
-<tspan x="10" y="890"></tspan>
-
-<tspan x="10" y="906">buildApidoc - 0 failed tests</tspan>
-
-<tspan x="10" y="922"></tspan>
-
-<tspan x="10" y="938"></tspan>
-
-<tspan x="10" y="954">[MODE_BUILD=buildApidoc] - 2018-02-17T00:46:27.542Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="826">[MODE_BUILD=buildApidoc] - 2018-06-20T07:47:50.008Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
