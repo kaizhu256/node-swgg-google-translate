@@ -1,0 +1,112 @@
+<svg height="974" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="974" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-02-16T23:44:23.972Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="58">ode-swgg-google-translate</tspan>
+
+<tspan x="10" y="74"></tspan>
+
+<tspan x="10" y="90"></tspan>
+
+<tspan x="10" y="106">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-swgg-google-transla\</tspan>
+<tspan x="10" y="122">te/tmp/build/test-report.json</tspan>
+
+<tspan x="10" y="138">override assets assets.swgg.swagger.json</tspan>
+
+<tspan x="10" y="154">&gt; server listening on http-port 46983</tspan>
+
+<tspan x="10" y="170">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/package.json</tspan>
+
+<tspan x="10" y="186">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/assets.swgg.s\</tspan>
+<tspan x="10" y="202">wagger.json</tspan>
+
+<tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/.gitignore</tspan>
+
+<tspan x="10" y="234">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/lib.swgg_goog\</tspan>
+<tspan x="10" y="250">le_translate.js</tspan>
+
+<tspan x="10" y="266">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/LICENSE</tspan>
+
+<tspan x="10" y="282">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/package.json</tspan>
+
+<tspan x="10" y="298">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/README.md</tspan>
+
+<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/test.js</tspan>
+
+<tspan x="10" y="330">apidocCreate - readExample /home/travis/build/kaizhu256/node-swgg-google-translate/.travis.yml</tspan>
+
+<tspan x="10" y="346">apidocCreate - requiring /home/travis/build/kaizhu256/node-swgg-google-translate ...</tspan>
+
+<tspan x="10" y="362">apidocCreate - ... required /home/travis/build/kaizhu256/node-swgg-google-translate</tspan>
+
+<tspan x="10" y="378">created apidoc file /home/travis/build/kaizhu256/node-swgg-google-translate/tmp/build/apidoc.htm\</tspan>
+<tspan x="10" y="394">l</tspan>
+
+<tspan x="10" y="410"></tspan>
+
+<tspan x="10" y="426">[node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
+
+<tspan x="10" y="442"></tspan>
+
+<tspan x="10" y="458">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-swgg-google-transla\</tspan>
+<tspan x="10" y="474">te/tmp/build/test-report.json</tspan>
+
+<tspan x="10" y="490"></tspan>
+
+<tspan x="10" y="506">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="522">| test-report - buildApidoc - node - linux v6.13.0 - 2018-02-16T23:44:24.215Z</tspan>
+
+<tspan x="10" y="538">|      93 ms            0 failed        1 passed      |</tspan>
+
+<tspan x="10" y="554">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="570">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
+<tspan x="10" y="586">ebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 2018-02-16T\</tspan>
+<tspan x="10" y="602">23:44:06.375Z</tspan>
+
+<tspan x="10" y="618">|      49 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="634">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="650">| test-report - npmTest - node - linux v6.13.0 - 2018-02-16T23:44:04.080Z</tspan>
+
+<tspan x="10" y="666">|   16642 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="682">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="698">| test-report - npmTestPublished - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_6\</tspan>
+<tspan x="10" y="714">4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 20\</tspan>
+<tspan x="10" y="730">18-02-16T23:42:57.733Z</tspan>
+
+<tspan x="10" y="746">|      17 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="762">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="778">| test-report - npmTestPublished - node - linux v6.13.0 - 2018-02-16T23:42:55.163Z</tspan>
+
+<tspan x="10" y="794">|   16933 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="810">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="826"></tspan>
+
+<tspan x="10" y="842">created test-report file /home/travis/build/kaizhu256/node-swgg-google-translate/tmp/build/test-\</tspan>
+<tspan x="10" y="858">report.html</tspan>
+
+<tspan x="10" y="874"></tspan>
+
+<tspan x="10" y="890"></tspan>
+
+<tspan x="10" y="906">buildApidoc - 0 failed tests</tspan>
+
+<tspan x="10" y="922"></tspan>
+
+<tspan x="10" y="938"></tspan>
+
+<tspan x="10" y="954">[MODE_BUILD=buildApidoc] - 2018-02-16T23:44:26.111Z - EXIT_CODE - 0</tspan>
+
+</text>
+</svg>
