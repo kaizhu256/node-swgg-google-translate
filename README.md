@@ -8,7 +8,7 @@ this zero-dependency package will provide a swagger-client for google-translate'
 
 
 
-[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-swgg-google-translate.svg)](https://travis-ci.org/kaizhu256/node-swgg-google-translate) [![coverage](https://kaizhu256.github.io/node-swgg-google-translate/build/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-google-translate/build/coverage.html/index.html) [![snyk.io vulnerabilities](https://snyk.io/test/github/kaizhu256/node-swgg-google-translate/badge.svg)](https://snyk.io/test/github/kaizhu256/node-swgg-google-translate)
+[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-swgg-google-translate.svg)](https://travis-ci.org/kaizhu256/node-swgg-google-translate) [![coverage](https://kaizhu256.github.io/node-swgg-google-translate/build/coverage.badge.svg)](https://kaizhu256.github.io/node-swgg-google-translate/build/coverage.html/index.html)
 
 [![NPM](https://nodei.co/npm/swgg-google-translate.png?downloads=true)](https://www.npmjs.com/package/swgg-google-translate)
 
@@ -58,9 +58,9 @@ this zero-dependency package will provide a swagger-client for google-translate'
 #### todo
 - none
 
-#### changelog for v2017.11.22
-- npm publish 2017.11.22
-- update swgg-client
+#### changelog v2018.2.16
+- npm publish v2018.2.16
+- update build
 - none
 
 #### this package requires
@@ -114,10 +114,11 @@ instruction
 
 
 /* istanbul instrument in package swgg_google_translate */
+/* jslint-utility2 */
 /*jslint
     bitwise: true,
     browser: true,
-    maxerr: 8,
+    maxerr: 4,
     maxlen: 100,
     node: true,
     nomen: true,
@@ -135,24 +136,20 @@ instruction
         // init local
         local = {};
         // init modeJs
-        local.modeJs = (function () {
+        (function () {
             try {
-                return typeof navigator.userAgent === 'string' &&
-                    typeof document.querySelector('body') === 'object' &&
-                    typeof XMLHttpRequest.prototype.open === 'function' &&
-                    'browser';
-            } catch (errorCaughtBrowser) {
-                return module.exports &&
-                    typeof process.versions.node === 'string' &&
+                local.modeJs = typeof process.versions.node === 'string' &&
                     typeof require('http').createServer === 'function' &&
                     'node';
+            } catch (ignore) {
             }
+            local.modeJs = local.modeJs || 'browser';
         }());
         // init global
         local.global = local.modeJs === 'browser'
             ? window
             : global;
-        // init utility2_rollup
+        // re-init local
         local = local.global.utility2_rollup || (local.modeJs === 'browser'
             ? local.global.utility2_swgg_google_translate
             : require('swgg-google-translate'));
@@ -178,15 +175,43 @@ instruction
         // init exports
         module.exports = local;
         // require builtins
-        Object.keys(process.binding('natives')).forEach(function (key) {
-            if (!local[key] && !(/\/|^_|^sys$/).test(key)) {
-                local[key] = require(key);
-            }
-        });
+        // local.assert = require('assert');
+        local.buffer = require('buffer');
+        local.child_process = require('child_process');
+        local.cluster = require('cluster');
+        local.console = require('console');
+        local.constants = require('constants');
+        local.crypto = require('crypto');
+        local.dgram = require('dgram');
+        local.dns = require('dns');
+        local.domain = require('domain');
+        local.events = require('events');
+        local.fs = require('fs');
+        local.http = require('http');
+        local.https = require('https');
+        local.module = require('module');
+        local.net = require('net');
+        local.os = require('os');
+        local.path = require('path');
+        local.process = require('process');
+        local.punycode = require('punycode');
+        local.querystring = require('querystring');
+        local.readline = require('readline');
+        local.repl = require('repl');
+        local.stream = require('stream');
+        local.string_decoder = require('string_decoder');
+        local.timers = require('timers');
+        local.tls = require('tls');
+        local.tty = require('tty');
+        local.url = require('url');
+        local.util = require('util');
+        local.v8 = require('v8');
+        local.vm = require('vm');
+        local.zlib = require('zlib');
+        /* validateLineSortedReset */
         // init assets
         local.assetsDict = local.assetsDict || {};
         [
-            'assets.index.css',
             'assets.index.template.html',
             'assets.swgg.swagger.json',
             'assets.swgg.swagger.server.json'
@@ -200,12 +225,19 @@ instruction
                 );
             }
         });
+        /* validateLineSortedReset */
+        /* jslint-ignore-begin */
+        // bug-workaround - long $npm_package_buildCustomOrg
+        local.assetsDict['/assets.swgg_google_translate.js'] =
+            local.assetsDict['/assets.swgg_google_translate.js'] ||
+            local.fs.readFileSync(local.__dirname + '/lib.swgg_google_translate.js', 'utf8'
+        ).replace((/^#!\//), '// ');
+        /* jslint-ignore-end */
+        /* validateLineSortedReset */
         local.assetsDict['/'] =
             local.assetsDict['/assets.example.html'] =
             local.assetsDict['/assets.index.template.html']
             .replace((/\{\{env\.(\w+?)\}\}/g), function (match0, match1) {
-                // jslint-hack
-                String(match0);
                 switch (match1) {
                 case 'npm_package_description':
                     return 'the greatest app in the world!';
@@ -226,15 +258,6 @@ instruction
         local.assetsDict['/assets.example.js'] =
             local.assetsDict['/assets.example.js'] ||
             local.fs.readFileSync(__filename, 'utf8');
-        // bug-workaround - long $npm_package_buildCustomOrg
-        /* jslint-ignore-begin */
-        local.assetsDict['/assets.swgg_google_translate.js'] =
-            local.assetsDict['/assets.swgg_google_translate.js'] ||
-            local.fs.readFileSync(
-                local.__dirname + '/lib.swgg_google_translate.js',
-                'utf8'
-            ).replace((/^#!/), '//');
-        /* jslint-ignore-end */
         local.assetsDict['/favicon.ico'] = local.assetsDict['/favicon.ico'] || '';
         // if $npm_config_timeout_exit exists,
         // then exit this process after $npm_config_timeout_exit ms
@@ -320,6 +343,7 @@ instruction
     "engines": {
         "node": ">=4.0"
     },
+    "githubRepoAlias": "swgg-io/node-swgg-google-translate",
     "homepage": "https://github.com/kaizhu256/node-swgg-google-translate",
     "keywords": [
         "google-translate",
@@ -341,15 +365,17 @@ instruction
         "url": "https://github.com/kaizhu256/node-swgg-google-translate.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh",
-        "env": "env",
-        "heroku-postbuild": "npm uninstall utility2 2>/dev/null; npm install kaizhu256/node-utility2#alpha && utility2 shDeployHeroku",
-        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
-        "start": "PORT=${PORT:-8080} utility2 start test.js",
-        "test": "PORT=$(utility2 shServerPortRandom) utility2 test test.js"
+        "build-ci": "./npm_scripts.sh",
+        "eval": "./npm_scripts.sh",
+        "heroku-postbuild": "./npm_scripts.sh",
+        "postinstall": "./npm_scripts.sh",
+        "start": "./npm_scripts.sh",
+        "test": "./npm_scripts.sh",
+        "utility2": "./npm_scripts.sh"
     },
+    "swggAll": "google-all",
     "swggTags0": "google-translate",
-    "version": "2017.11.22"
+    "version": "2018.6.20"
 }
 ```
 
@@ -367,19 +393,20 @@ instruction
 
 # this shell script will run the build for this package
 
-shBuildCiAfter() {(set -e
+shBuildCiAfter () {(set -e
+    # shDeployCustom
     shDeployGithub
     shDeployHeroku
     shReadmeTest example.sh
 )}
 
-shBuildCiBefore() {(set -e
+shBuildCiBefore () {(set -e
     shNpmTestPublished
     shReadmeTest example.js
 )}
 
 # run shBuildCi
-eval $(utility2 source)
+eval "$(utility2 source)"
 shBuildCi
 ```
 

@@ -1,19 +1,21 @@
 {
     "basePath": "/",
     "definitions": {},
+    "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
     "externalDocs": {
         "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
         "url": "https://cloud.google.com/translate/docs/reference/rest"
     },
     "info": {
-        "description": "this zero-dependency package will provide a swagger-client for google-translate's web-apis, with a working web-demo",
+        "description": "this zero-dependency package will provide a swagger-client for google-all's web-apis, with a working web-demo",
         "title": "swgg-google-translate",
-        "version": "2017.11.22",
-        "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-google-translate/build..beta..travis-ci.org/app/assets.app.js",
+        "version": "2018.6.20",
+        "x-swgg-description": "this zero-dependency package will provide a swagger-client for google-translate's web-apis, with a working web-demo",
+        "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-google-all/build..beta..travis-ci.org/app/assets.app.js",
         "x-swgg-homepage": "https://github.com/kaizhu256/node-swgg-google-translate"
     },
     "parameters": {
-        "google-maps.key": {
+        "google-all.key": {
             "default": "xxxxxxxx",
             "description": "A valid API key to handle requests for this API. If you are using OAuth 2.0 service account credentials (recommended), do not supply this parameter.",
             "in": "query",
@@ -168,7 +170,7 @@
                 "operationId": "_2Flanguage_2Ftranslate_2Fv2_20POST",
                 "parameters": [
                     {
-                        "$ref": "#/parameters/google-maps.key"
+                        "$ref": "#/parameters/google-all.key"
                     },
                     {
                         "default": "hello world!",
@@ -233,7 +235,7 @@
                 "operationId": "_2Flanguage_2Ftranslate_2Fv2_2Fdetect_20POST",
                 "parameters": [
                     {
-                        "$ref": "#/parameters/google-maps.key"
+                        "$ref": "#/parameters/google-all.key"
                     },
                     {
                         "collectionFormat": "multi",
@@ -269,7 +271,7 @@
                 "operationId": "_2Flanguage_2Ftranslate_2Fv2_2Flanguages_20POST",
                 "parameters": [
                     {
-                        "$ref": "#/parameters/google-maps.key"
+                        "$ref": "#/parameters/google-all.key"
                     },
                     {
                         "description": "The target language code for the results. If specified, then the language names are returned in the name field of the response, localized in the target language. If you do not supply a target language, then the name field is omitted from the response and only the language codes are returned.",
@@ -308,20 +310,23 @@
     "swagger": "2.0",
     "tags": [
         {
-            "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.\n\nhttps://cloud.google.com/translate/docs/reference/rest",
+            "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
             "name": "google-translate",
             "x-swgg-tags0": "google-translate"
         }
     ],
+    "x-swgg-downloadStandaloneApp": "https://kaizhu256.github.io/node-swgg-google-translate/build..beta..travis-ci.org/app/assets.app.js",
     "x-swgg-operationIdFromPath": true,
     "x-swgg-tags0-override": {
         "google-maps": {
+            "description": "Google Maps APIs.",
             "externalDocs": {
-                "description": "find out more about google-maps' web-apis",
+                "description": "Google Maps APIs.",
                 "url": "https://developers.google.com/maps/documentation/"
             }
         },
         "google-translate": {
+            "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
             "externalDocs": {
                 "description": "The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.",
                 "url": "https://cloud.google.com/translate/docs/reference/rest"
