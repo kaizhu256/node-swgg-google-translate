@@ -16845,9 +16845,11 @@ instruction\n\
 \n\
 \n\
 \n\
+    # shDeployCustom\n\
     shDeployGithub\n\
-    shReadmeTest example.sh\n\
-    shReadmeTest example.js\n\
+    # shDeployHeroku\n\
+    # shNpmTestPublished\n\
+)}\n\
 ';
 
 
@@ -19330,6 +19332,16 @@ local.assetsDict['/favicon.ico'] = '';
                 );
                 // customize screenshot
                 options.dataTo = options.dataTo.replace(element[1], '');
+            });
+            // customize shDeployHeroku
+            options.dataTo = options.dataTo.replace((
+                /([\w\-]*?)(-\w*)\.herokuapp\.com/g
+            ), function (match0, match1, match2) {
+                match0 = match1;
+                if (match0.length + match2.length > 30) {
+                    match0 = match0.slice(0, 30 - match2.length);
+                }
+                return match0 + match2 + '.herokuapp.com';
             });
             // customize assets.index.template.html
             if (local.assetsDict['/assets.index.template.html']
