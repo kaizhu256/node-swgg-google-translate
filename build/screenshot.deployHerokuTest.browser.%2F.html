@@ -1,17 +1,4 @@
-<html lang="en" data-scrape="{
-    &quot;hrefDict&quot;: {
-        &quot;https://github.com/kaizhu256/node-swgg&quot;: &quot;swgg&quot;,
-        &quot;https://github.com/kaizhu256/node-swgg-google-translate&quot;: &quot;swgg-google-translate (2018.2.16)&quot;,
-        &quot;https://cloud.google.com/translate/docs/reference/rest&quot;: &quot;The Google Cloud Translation API lets websites and programs integrate with Google Translate programmatically.&quot;,
-        &quot;https://cloud.google.com/translate/docs/reference/translate&quot;: &quot;https://cloud.google.com/translate/docs/reference/translate&quot;,
-        &quot;https://cloud.google.com/translate/docs/languages&quot;: &quot;https://cloud.google.com/translate/docs/languages&quot;,
-        &quot;https://cloud.google.com/translate/docs/reference/detect&quot;: &quot;https://cloud.google.com/translate/docs/reference/detect&quot;,
-        &quot;https://cloud.google.com/translate/docs/reference/languages&quot;: &quot;https://cloud.google.com/translate/docs/reference/languages&quot;
-    },
-    &quot;href&quot;: &quot;https://h1-swgg-google-translat-alpha.herokuapp.com/?modeTest=1&amp;timeExit=1518828555106#!swgg_id__2F_24discovery_2Frest_23google_translate_20GET_1&quot;,
-    &quot;url&quot;: &quot;https://h1-swgg-google-translat-alpha.herokuapp.com/&quot;,
-    &quot;bodyTextContent&quot;: &quot;javascript code\n/*\n * initialize swgg-client\n * 1. download currently-loaded apis to file swagger.json:\n *     $ curl -L \&quot;https://h1-swgg-google-translat-alpha.herokuapp.com/assets.swgg.swagger.json\&quot; > swagger.json\n * 2. npm install swgg\n *     $ npm install swgg\n * 3. run code below to initialize swgg-client\n * 4. (optional) edit file swagger.json to suit your needs\n */\nvar swgg;\nswgg = require(\&quot;swgg\&quot;);\nswgg.apiUpdate(require(\&quot;./swagger.json\&quot;));\nconsole.log(\&quot;printing currently loaded apis ...\&quot;);\nconsole.log(JSON.stringify(Object.keys(swgg.apiDict).sort(), null, 4));\nconsole.log(\&quot;initialized swgg-client\&quot;);\n\n                                                                            try it out!\n    javascript code\n    /*\n * reproduce api-call \&quot;GET /$discovery/rest#google-translate\&quot;\n * 1. initialize swgg-client from previous step\n * 2. run code below to reproduce api-call\n */\nswgg.apiDict[\&quot;GET /$discovery/rest#google-translate\&quot;].ajax({\n    \&quot;paramDict\&quot;: {\n        \&quot;version\&quot;: \&quot;v2\&quot;\n    }\n}, function (error, data) {\n    if (error) {\n        console.error(error);\n        return;\n    }\n    console.log(data.responseJson || data.responseText);\n});\n\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The language of the source text, set to one of the language codes listed in Language Support (https://cloud.google.com/translate/docs/languages). If the source language is not specified, the API will attempt to detect the source language automatically and return it within the response.\n\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                The translation model. Can be either base to use the Phrase-Based Machine Translation (PBMT) model, or nmt to use the Neural Machine Translation (NMT) model. If omitted, then nmt is used.\nIf the model is nmt, and the requested language translation pair is not supported for the NMT model, then the request is translated using the base model.\n\n                                                                                                                                                                                                The target language code for the results. If specified, then the language names are returned in the name field of the response, localized in the target language. If you do not supply a target language, then the name field is omitted from the response and only the language codes are returned.\n\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                The translation model of the supported languages. Can be either base to return languages supported by the Phrase-Based Machine Translation (PBMT) model, or nmt to return languages supported by the Neural Machine Translation (NMT) model. If omitted, then all supported languages are returned.\nLanguages supported by the NMT model can only be translated to or from English (en).&quot;
-}"><head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- "" -->
@@ -475,7 +462,51 @@ pre {
 <body>
 <div id="ajaxProgressDiv1" style="background: transparent; height: 2px; left: 0px; margin: 0px; padding: 0px; position: fixed; top: 0px; transition: background 500ms, width 1500ms; width: 0%; z-index: 1;"></div>
 <div class="uiAnimateSpin" style="animation: uiAnimateSpin 2s linear infinite; border: 5px solid #999; border-radius: 50%; border-top: 5px solid #7d7; display: none; height: 25px; vertical-align: middle; width: 25px;"></div>
-<script></script>
+<script>
+/*jslint
+    bitwise: true,
+    browser: true,
+    maxerr: 8,
+    maxlen: 100,
+    node: true,
+    nomen: true,
+    regexp: true,
+    stupid: true
+*/
+(function () {
+    "use strict";
+    var ajaxProgressDiv1,
+        ajaxProgressState,
+        ajaxProgressUpdate,
+        timerIntervalAjaxProgressUpdate;
+    ajaxProgressDiv1 = document.querySelector("#ajaxProgressDiv1");
+    setTimeout(function () {
+        ajaxProgressDiv1.style.width = "25%";
+    });
+    ajaxProgressState = 0;
+    ajaxProgressUpdate = (window.local &&
+        window.local.ajaxProgressUpdate) || function () {
+        ajaxProgressDiv1.style.width = "100%";
+        setTimeout(function () {
+            ajaxProgressDiv1.style.background = "transparent";
+            setTimeout(function () {
+                ajaxProgressDiv1.style.width = "0%";
+            }, 500);
+        }, 1500);
+    };
+    timerIntervalAjaxProgressUpdate = setInterval(function () {
+        ajaxProgressState += 1;
+        ajaxProgressDiv1.style.width = Math.max(
+            100 - 75 * Math.exp(-0.125 * ajaxProgressState),
+            Number(ajaxProgressDiv1.style.width.slice(0, -1)) || 0
+        ) + "%";
+    }, 1000);
+    window.addEventListener("load", function () {
+        clearInterval(timerIntervalAjaxProgressUpdate);
+        ajaxProgressUpdate();
+    });
+}());
+</script>
 <div class="swggUiContainer"><!-- <div class="swggUiContainer"> -->
 <div class="eventDelegateKeyup eventDelegateSubmit onEventUiReload thead">
     <a class="td td1" href="https://github.com/kaizhu256/node-swgg" target="_blank">swgg</a>
@@ -1777,9 +1808,27 @@ Returns a list of supported languages for translation.</p>
 </div>
 <!-- </div> -->
 </div>
-<script></script>
-<script></script>
-<script></script>
+<script>
+/*jslint
+    bitwise: true,
+    browser: true,
+    maxerr: 8,
+    maxlen: 100,
+    node: true,
+    nomen: true,
+    regexp: true,
+    stupid: true
+*/
+"use strict";
+document.querySelector(".swggUiContainer > .thead > .td2").value =
+    ((/\bmodeSwaggerJsonUrl=([^&]+)/g).exec(location.search) || {})[1] ||
+        "assets.swgg.swagger.json";
+</script>
+<script src="assets.utility2.rollup.js"></script>
+<script>
+window.local = window.local || window.swgg;
+window.swgg.uiEventListenerDict[".onEventUiReload"]({ swggInit: true });
+</script>
 
 
 </body></html>
