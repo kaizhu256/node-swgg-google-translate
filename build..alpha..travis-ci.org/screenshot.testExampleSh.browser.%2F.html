@@ -551,7 +551,7 @@ textarea {
 <div class="swggUiContainer" style="margin: 0 auto; max-width: 1200px;"><!-- <div class="swggUiContainer"> -->
 <h2 class="eventDelegateKeyup eventDelegateSubmit hx onEventUiReload thead">
     <a class="td td1" href="https://github.com/kaizhu256/node-swgg" target="_blank">swgg</a>
-    <input class="td td2" placeholder="http://petstore.swagger.io/v2/swagger.json" type="text" value="https://h1-swgg-google-translat-alpha.herokuapp.com/assets.swgg.swagger.json">
+    <input class="td td2" placeholder="http://petstore.swagger.io/v2/swagger.json" type="text" value="http://127.0.0.1:8081/assets.swgg.swagger.json">
     <input class="td td3" id="swggApiKeyInput1" placeholder="api-key" type="text" value="">
     <button class="button eventDelegateClick onEventUiReload td td4">explore</button>
     <button class="button eventDelegateClick onEventUiReload td td5" id="swggApiKeyClearButton1">
@@ -602,7 +602,7 @@ textarea {
 <pre id="swggAjaxProgressPre1" tabindex="0">/*
  * initialize nodejs swgg-client
  * 1. download currently-loaded apis to file swagger.json:
- *     $ curl -L -o swagger.json "https://h1-swgg-google-translat-alpha.herokuapp.com/assets.swgg.swagger.json"
+ *     $ curl -L -o swagger.json "http://127.0.0.1:8081/assets.swgg.swagger.json"
  * 2. npm install swgg
  *     $ npm install swgg
  * 3. run code below to initialize nodejs swgg-client
