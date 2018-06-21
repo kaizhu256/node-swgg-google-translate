@@ -375,7 +375,7 @@ instruction
     },
     "swggAll": "google-all",
     "swggTags0": "google-translate",
-    "version": "2018.6.20"
+    "version": "2018.6.21"
 }
 ```
 
