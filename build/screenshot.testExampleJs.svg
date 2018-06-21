@@ -3,7 +3,7 @@
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">&gt; swgg-google-translate@2018.6.20 postinstall /tmp/app/node_modules/swgg-google-translate</tspan>
+<tspan x="10" y="42">&gt; swgg-google-translate@2018.6.21 postinstall /tmp/app/node_modules/swgg-google-translate</tspan>
 
 <tspan x="10" y="58">&gt; ./npm_scripts.sh</tspan>
 
@@ -25,9 +25,9 @@
 
 <tspan x="10" y="202"></tspan>
 
-<tspan x="10" y="218">+ swgg-google-translate@2018.6.20</tspan>
+<tspan x="10" y="218">+ swgg-google-translate@2018.6.21</tspan>
 
-<tspan x="10" y="234">added 1 package from 1 contributor and audited 1 package in 1.281s</tspan>
+<tspan x="10" y="234">added 1 package from 1 contributor and audited 1 package in 1.287s</tspan>
 
 <tspan x="10" y="250">found 0 vulnerabilities</tspan>
 
